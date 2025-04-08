@@ -1,0 +1,54 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-font: 'Playfair Display', serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--primary-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2E1F36;
+  color: #f3f3f3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Apply Playfair Display to all inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font-family: var(--primary-font);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  font-family: var(--primary-font);
+  text-decoration: none;
+}
+
+/* Placeholder text */
+::placeholder {
+  font-family: var(--primary-font);
+}
+
+/* Button text */
+button {
+  font-family: var(--primary-font);
+  font-weight: 500;
+}

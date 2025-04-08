@@ -1,0 +1,158 @@
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  color: #f3f3f3;
+  font-family: 'Playfair Display', serif;
+}
+
+footer p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.feedback-container {
+  background-color: rgba(36, 20, 76, 0.8);
+  border-radius: 16px;
+  padding: 25px;
+  max-width: 500px;
+  margin: 40px auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-container h3 {
+  color: #f3f3f3;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.feedback-form .form-group {
+  margin-bottom: 20px;
+}
+
+.feedback-form label {
+  display: block;
+  color: #f3f3f3;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+}
+
+.feedback-form select,
+.feedback-form input[type="email"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: #C0A9D9;
+  color: #2E1F36;
+  font-family: 'Playfair Display', serif;
+}
+
+.feedback-form select:focus,
+.feedback-form input[type="email"]:focus,
+.feedback-form textarea:focus {
+  outline: none;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(192, 169, 217, 0.8);
+}
+
+.feedback-form .radio-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.feedback-form .radio-label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.feedback-form .radio-label input {
+  margin-right: 5px;
+}
+
+.feedback-form .rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.feedback-form .rating input {
+  display: none;
+}
+
+.feedback-form .rating label {
+  font-size: 30px;
+  color: #C0A9D9;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.feedback-form .rating label:hover,
+.feedback-form .rating label:hover ~ label,
+.feedback-form .rating input:checked ~ label {
+  color: #CE3261;
+}
+
+.feedback-form .consent-checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.feedback-form .consent-checkbox input {
+  margin-right: 8px;
+}
+
+.feedback-form .consent-checkbox label {
+  display: inline;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.feedback-form .submit-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #24144C, #CE3261);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s;
+  margin-top: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.feedback-form .submit-button:hover {
+  transform: scale(1.02);
+}
+
+.thank-you-message {
+  text-align: center;
+  color: #f3f3f3;
+  padding: 20px 0;
+}
+
+.thank-you-message h4 {
+  color: #CE3261;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.error-message {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #ff6b6b;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.9rem;
+} 

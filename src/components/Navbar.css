@@ -1,0 +1,71 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #24144C, #CE3261);
+  z-index: 1000;
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #C0A9D9;
+}
+
+.navbar .search-input {
+  height: 30px;
+  width: 70%;
+  border-radius: 50px;
+  background-color: #C0A9D9;
+  color: #2E1F36;
+  padding: 0 20px;
+  border: solid transparent;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: width 0.3s, box-shadow 0.3s;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+}
+
+.navbar .search-input::placeholder {
+  color: #2E1F36;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.navbar .icons {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.navbar .icons:hover {
+  transform: scale(1.1);
+}
+
+.navbar .search-input:focus {
+  width: 80%;
+  outline: none;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+} 
