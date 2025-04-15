@@ -13,7 +13,7 @@ const Home = () => {
   const location = useLocation();
 
   // Use your Pexels API key here
-  const PEXELS_API_KEY = 'V8EJNn6TgYQ4h5hzM2Zg9hOW9TcguBd62nGGlYzIBX4UQuYX0bDgRJVl';
+  const PEXELS_API_KEY = 'PEXELS_API_KEY';
 
   const getRandomTopics = () => {
     const topics = ['nature', 'architecture', 'travel', 'technology', 'cars', 'cyberpunk', 
