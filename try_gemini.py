@@ -16,7 +16,7 @@ def encode_image_from_url(image_url):
 
 def analyze_image(image_url):
     """Send image to Gemini API and get response"""
-    api_key = "AIzaSyASEub51YNN_6-7_6inBNqceqgjeQAwmNs"
+    api_key = "YOUR_GEMINI_API_KEY"
     url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={api_key}"
     
     encoded_image = encode_image_from_url(image_url)
