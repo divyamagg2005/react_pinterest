@@ -55,8 +55,8 @@ const Feedback = () => {
 
     try {
       await emailjs.send(
-        "service_ggpt2xp",
-        "template_uwgc1y8",
+        "service_ID",
+        "template_ID",
         {
           satisfaction: formData.satisfaction,
           feedbackComment: formData.feedbackComment,
@@ -65,7 +65,7 @@ const Feedback = () => {
           visitPurpose: formData.visitPurpose,
           taskCompletion: formData.taskCompletion
         },
-        "Yw9gIfL99fFVF-nJW"
+        "INIT_ID"
       );
 
       setShowThankYou(true);
